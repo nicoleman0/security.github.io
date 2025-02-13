@@ -6,7 +6,7 @@ Welcome to my cybersecurity portfolio repository. This repository contains the s
 I am a 24-year-old college graduate with a lifelong passion for computers and technology. I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity, IT security, and penetration testing.
 
 ## Website
-You can visit my portfolio at: [your-github-username.github.io](https://your-github-username.github.io)
+You can visit my portfolio at: [nicoleman0/security-portfolio.github.io](https://nicoleman0.github.io/security-portfolio.github.io/))
 
 ## Projects
 This repository links to several cybersecurity projects that I have worked on:
@@ -28,11 +28,11 @@ This repository links to several cybersecurity projects that I have worked on:
 ## How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/nicoleman0/security-portfolio.github.io
    ```
 2. Navigate to the project folder:
    ```bash
-   cd your-repo
+   cd security-portfolio
    ```
 3. Open `index.html` in your browser or use a local web server.
 
