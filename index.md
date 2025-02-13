@@ -2,13 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome to Nicholas Coleman's cybersecurity portfolio page.
 
 [Link to another page](./another-page.html).
 
-There should be whitespace between paragraphs.
+This website serves as a place for potential employers to be able to see my work, in an efficient and simple manner.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+If you are experiencing any issues with loading the webpage, please do not hesitate to contact me by email.
 
 # Header 1
 
