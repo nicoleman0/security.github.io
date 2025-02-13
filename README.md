@@ -6,7 +6,7 @@ Welcome to my cybersecurity portfolio repository. This repository contains the s
 I am a 24-year-old college graduate with a lifelong passion for computers and technology. I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity, IT security, and penetration testing.
 
 ## Website
-You can visit my portfolio at: [nicoleman0/security-portfolio.github.io](https://nicoleman0.github.io/security-portfolio.github.io/))
+You can visit my portfolio at: [nicoleman0/security-portfolio.github.io](https://nicoleman0.github.io/security-portfolio.github.io/)
 
 ## Projects
 This repository links to several cybersecurity projects that I have worked on:
