@@ -6,7 +6,7 @@ google_analytics:
 
 # Site settings
 baseurl: ""  # Leave empty if using GitHub Pages with default username.github.io domain
-url: "https://yourusername.github.io"  # Replace with your actual GitHub Pages URL
+url: "https://nicoleman0.github.io/security-portfolio.github.io/"  # Replace with your actual GitHub Pages URL
 
 # Plugins required by Minimal Mistakes
 plugins:
