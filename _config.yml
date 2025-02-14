@@ -2,4 +2,4 @@ title: Cybersecurity Portfolio - Nicholas Coleman
 description: This webpage hosts security projects done by Nicholas Coleman.
 show_downloads: true
 google_analytics:
-theme: jekyll-theme-tactile
+remote_theme: mmistakes/minimal-mistakes
