@@ -8,22 +8,10 @@ I am a 24-year-old college graduate with a lifelong passion for computers and te
 ## Website
 You can visit my portfolio at: [nicoleman0/security-portfolio.github.io](https://nicoleman0.github.io/security-portfolio.github.io/)
 
-## Projects
-This repository links to several cybersecurity projects that I have worked on:
-- [Basic Port Scanner](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/scanner.py)
-- [Firewall](https://github.com/nicoleman0/Portfolio/blob/projects/firewall_proj.py)
-- [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/projects/caesar_cipher.py)
-- [Nmap automation tool](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/nmap-scanner_proj.py)
-- [Password management tool](https://github.com/nicoleman0/Portfolio/blob/projects/password-projects/password_manager.py)
-- [TCP Server](https://github.com/nicoleman0/Portfolio/blob/projects/tcp_server.py)
-
-## Technical Skills
+## Technical Skills Used
 - HTML, CSS, Markdown
 - GitHub Pages
-- Bash & Python Scripting
 - Network Security Tools
-- Linux and Windows Administration
-- Knowledge of security controls/policies/standards/procedures
 
 ## How to Run Locally
 1. Clone the repository:
@@ -39,7 +27,7 @@ This repository links to several cybersecurity projects that I have worked on:
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 - [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
-- [Email](mailto:your.email@example.com)
+- [Email](mailto:nicholashadleycoleman@gmail.com)
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
