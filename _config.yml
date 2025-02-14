@@ -4,9 +4,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Security Portfolio"
+title                    : "Cybersecurity Portfolio"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Nicholas Coleman"
 name                     : "Nicholas Coleman"
 description              : "My cybersecurity portfolio, for employers."
 url                      : "https://nicoleman0.github.io/security-portfolio.github.io/"
