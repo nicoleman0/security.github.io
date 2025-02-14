@@ -32,7 +32,7 @@ This repository links to several cybersecurity projects that I have worked on:
    ```
 2. Navigate to the project folder:
    ```bash
-   cd security-portfolio
+   cd security-portfolio.github.io
    ```
 3. Open `index.html` in your browser or use a local web server.
 
