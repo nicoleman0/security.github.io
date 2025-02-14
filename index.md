@@ -19,7 +19,7 @@ This portfolio showcases my passion for security along with my technical abiliti
 
 ## Python Projects
 - [Basic Port Scanner](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/scanner.py)
-- [Firewall](https://github.com/nicoleman0/Portfolio/blob/projects/firewall_proj.py)
+- [Firewall](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/firewall_proj.py)
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/projects/caesar_cipher.py)
 - [Nmap automation tool](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/nmap-scanner_proj.py)
 - [Password management tool](https://github.com/nicoleman0/Portfolio/blob/projects/password-projects/password_manager.py)
