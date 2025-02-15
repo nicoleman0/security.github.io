@@ -18,6 +18,7 @@ My goal is to become a SOC Analyst, and work with blue teams to defend organizat
 This portfolio showcases my passion for security along with my technical abilities. 
 
 ## Python Projects
+- [CerberusIR](https://github.com/nicoleman0/CerberusIR/tree/main)
 - [Basic Port Scanner](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/scanner.py)
 - [Firewall](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/firewall_proj.py)
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/projects/caesar_cipher.py)
