@@ -29,6 +29,9 @@ This portfolio showcases my passion for security along with my technical abiliti
 
 ## Written Projects
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
+- [PASTA Framework Practice](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/PASTA%20worksheet_Nicholas%20Coleman.pdf)
+- [USB Risk Analysis](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Parking%20lot%20USB%20exercise_Nicholas.pdf)
+- [Vulnerability Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Vulnerability%20assessment%20report.pdf)
 - [SYN Flood Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/SYN%20Flood%20Attack%20sample%20analysis%20report_Nicholas%20Coleman%20(1).pdf)
 - [SQL Worksheet](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Apply%20filters%20to%20SQL%20queries.pdf)
 - [Traffic Analysis Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Traffic%20Analysis%20sample%20report_Nicholas%20Coleman.pdf)
@@ -38,7 +41,7 @@ This portfolio showcases my passion for security along with my technical abiliti
 ## Technical Skills
 - Basic Pentesting and Vulnerability Assessment
 - SIEM Solutions
-- Bash & Python Scripting
+- Bash, Python, and SQL
 - Network Security & Firewalls
 - Linux & Windows Administration
 
