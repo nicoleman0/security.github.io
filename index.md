@@ -13,7 +13,7 @@ I am a 24-year-old college graduate with a lifelong passion for computers and te
 
 I graduated from Bard College with a Bachelor's of Art degree, in May 2024.
 
-My background is in technology as well as the humanities, which makes me strong at both analysis and writing reports.
+My background is in technology as well as the humanities, which makes me strong at both analysis and documentation.
 
 I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity.
 
@@ -21,7 +21,7 @@ I am a hardworking, adaptable, and enthusiastic individual seeking opportunities
 
 Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), AI Security
 
-This portfolio includes Python projects, along with written projects showcasing my technical and writing skills.
+This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
 
 ## Python Projects
 - [CerberusIR](https://github.com/nicoleman0/CerberusIR/tree/main)
@@ -33,7 +33,7 @@ This portfolio includes Python projects, along with written projects showcasing 
 - [TCP Server](https://github.com/nicoleman0/Portfolio/blob/projects/tcp_server.py)
 - [Syslog Parser](https://github.com/nicoleman0/Portfolio/blob/projects/blue-team_projects/log_parser.py)
 
-## Written Projects
+## Documentation
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
 - [PASTA Framework Practice](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/PASTA%20worksheet_Nicholas%20Coleman.pdf)
 - [USB Risk Analysis](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Parking%20lot%20USB%20exercise_Nicholas.pdf)
