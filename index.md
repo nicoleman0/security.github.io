@@ -11,11 +11,17 @@ Welcome to my portfolio. I am grateful that you are interested in knowing more a
 ## About Me
 I am a 24-year-old college graduate with a lifelong passion for computers and technology. 
 
-I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity and IT.
+I graduated from Bard College with a Bachelor's of Art degree, in May 2024.
 
-My goal is to become a SOC Analyst, and work with blue teams to defend organizations from all sorts of threat actors.
+My background is in technology as well as the humanities, which makes me strong at both analysis and writing reports.
 
-This portfolio showcases my passion for security along with my technical abilities. 
+I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity.
+
+### Interests: 
+
+Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), AI Security
+
+This portfolio includes Python projects, along with written projects showcasing my technical and writing skills.
 
 ## Python Projects
 - [CerberusIR](https://github.com/nicoleman0/CerberusIR/tree/main)
