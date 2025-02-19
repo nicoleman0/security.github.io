@@ -52,7 +52,7 @@ This portfolio includes Python projects, along with written projects showcasing 
 ## Certificates 
 - Google Cybersecurity Professional Certificate
 - ISC2 Certified in Cybersecurity Certificate (expected 02/21/25)
-- CompTIA+ Security+ (expected 05/30/25)
+- CompTIA Security+ (expected 05/30/25)
 
 ## Contact
 If you are experiencing any issues with loading the webpage, please do not hesitate to [contact me by email.](mailto:nicholashadleycoleman@gmail.com)
