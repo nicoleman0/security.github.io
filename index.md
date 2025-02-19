@@ -9,15 +9,15 @@ layout: default
 Welcome to my portfolio. I am grateful that you are interested in knowing more about me.
 
 ## About Me
-I graduated from Bard College with a Bachelor's of Art degree, in May 2024.
+I graduated from Bard College with a Bachelor's of Art degree.
 
 My background is in technology as well as the humanities, which makes me strong at both analysis and documentation.
 
-I am a hardworking, adaptable, and enthusiastic individual seeking opportunities in cybersecurity.
+I am hardworking, adaptable, and enthusiastic, and seeking opportunities in cybersecurity.
 
 ### Interests: 
 
-Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), AI Security
+My interests include, Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), and AI Security.
 
 This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
 
@@ -48,6 +48,11 @@ This portfolio includes Python projects, along with written projects showcasing 
 - Bash, Python, and SQL
 - Network Security & Firewalls
 - Linux & Windows Administration
+
+## Certificates 
+- Google Cybersecurity Professional Certificate
+- ISC2 Certified in Cybersecurity Certificate (expected 02/21/25)
+- CompTIA+ Security+ (expected 05/30/25)
 
 ## Contact
 If you are experiencing any issues with loading the webpage, please do not hesitate to [contact me by email.](mailto:nicholashadleycoleman@gmail.com)
