@@ -9,8 +9,6 @@ layout: default
 Welcome to my portfolio. I am grateful that you are interested in knowing more about me.
 
 ## About Me
-I am a 24-year-old college graduate with a lifelong passion for computers and technology. 
-
 I graduated from Bard College with a Bachelor's of Art degree, in May 2024.
 
 My background is in technology as well as the humanities, which makes me strong at both analysis and documentation.
