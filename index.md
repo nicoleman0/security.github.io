@@ -4,9 +4,9 @@ layout: default
 
 # Portfolio
 
-[LinkedIn Profile](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
+## LinkedIn
 
-Welcome to my portfolio. I am grateful that you are interested in knowing more about me.
+[Profile Link](https://www.linkedin.com/in/nicholas-coleman-8b595b279/) -> Feel free to connect with me on LinkedIn.
 
 ## About Me
 I graduated from Bard College with a Bachelor's of Art degree.
@@ -55,4 +55,4 @@ This portfolio includes Python projects, along with written projects showcasing 
 - CompTIA Security+ (expected 05/30/25)
 
 ## Contact
-If you are experiencing any issues with loading the webpage, please do not hesitate to [contact me by email.](mailto:nicholashadleycoleman@gmail.com)
+If you have any inquiries, job offers, or anything else, do not hesitate to contact me by [email](mailto:nicholashadleycoleman@gmail.com).
