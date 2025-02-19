@@ -55,4 +55,6 @@ This portfolio includes Python projects, along with written projects showcasing 
 - CompTIA Security+ (expected 05/30/25)
 
 ## Contact
-If you have any inquiries, job offers, or anything else, do not hesitate to contact me by [email](mailto:nicholashadleycoleman@gmail.com).
+If you have any inquiries, job offers, or anything else:
+
+Do not hesitate to contact me by [email](mailto:nicholashadleycoleman@gmail.com).
