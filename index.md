@@ -22,14 +22,7 @@ My interests include, Security Operations, Network Security, Cloud Security, Dig
 This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
 
 ## Python Projects
-- [CerberusIR](https://github.com/nicoleman0/CerberusIR/tree/main)
-- [Basic Port Scanner](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/scanner.py)
-- [Firewall](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/firewall_proj.py)
-- [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/projects/caesar_cipher.py)
-- [Nmap automation tool](https://github.com/nicoleman0/Portfolio/blob/projects/pen_test/nmap-scanner_proj.py)
-- [Password management tool](https://github.com/nicoleman0/Portfolio/blob/projects/password-projects/password_manager.py)
-- [TCP Server](https://github.com/nicoleman0/Portfolio/blob/projects/tcp_server.py)
-- [Syslog Parser](https://github.com/nicoleman0/Portfolio/blob/projects/blue-team_projects/log_parser.py)
+under construction - for 10 mins
 
 ## Documentation
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
