@@ -9,11 +9,13 @@ layout: default
 [Profile Link](https://www.linkedin.com/in/nicholas-coleman-8b595b279/) -> Feel free to connect with me on LinkedIn.
 
 ## About Me
-I graduated from Bard College with a Bachelor's of Art degree.
+My background is in both the humanities and tech, and I have strong technical skills as well as writing/soft-skills. 
 
-My background is in technology as well as the humanities, which makes me strong at both analysis and documentation.
+It is my career goal to become a SOC Analyst, and I am currently pursuing the ISC2 CC and Security+ certifications so I can make it happen. 
 
-I am hardworking, adaptable, and enthusiastic, and seeking opportunities in cybersecurity.
+I learned the fundamentals of cyber security through Google's Cybersecurity Professional Certificate program, and fell in love with the field very quickly.
+
+I am currently looking for work such as Tech Support Analyst, IT Helpdesk, Junior Security Analyst, and any other related jobs.
 
 ### Interests: 
 
@@ -22,7 +24,11 @@ My interests include, Security Operations, Network Security, Cloud Security, Dig
 This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
 
 ## Python Projects
-under construction - for 10 mins
+- [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
+- [Hangman Game](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/hangman.py)
+- [Password Generator](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password-generator.py)
+- [Password Checker](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password_checker.py)
+- [Network Scanner](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/scanner.py)
 
 ## Documentation
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
