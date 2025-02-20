@@ -41,12 +41,13 @@ This portfolio includes Python projects, along with written projects showcasing 
 - [DDoS Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/DDoS%20Incident%20report%20analysis.pdf)
 - [Data Leak Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Activity%20Template_%20Data%20leak%20worksheet.pdf)
 
-## Technical Skills
+## Skills
 - Basic Pentesting and Vulnerability Assessment
 - SIEM Solutions
 - Bash, Python, and SQL
 - Network Security & Firewalls
 - Linux & Windows Administration
+- Suricata signature analysis
 
 ## Certificates 
 - Google Cybersecurity Professional Certificate
