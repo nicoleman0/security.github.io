@@ -4,6 +4,11 @@ layout: default
 
 # Portfolio
 
+## Certificates 
+- ISC2 CC
+- Google Cybersecurity Professional Certificate
+- CompTIA Security+ (expected 05/30/25)
+
 ## About Me
 My background is in both the humanities and tech, and I have strong technical skills as well as writing/soft-skills. 
 
@@ -14,11 +19,6 @@ I've recently obtained the ISC2 Certified in Cybersecurity certificate, and am s
 I learned the fundamentals of cyber security through Google's Cybersecurity Professional Certificate program, and fell in love with the field very quickly.
 
 I am currently looking for work such as Tech Support Analyst, IT Helpdesk, Junior Security Analyst, and any other related jobs.
-
-## Certificates 
-- ISC2 CC
-- Google Cybersecurity Professional Certificate
-- CompTIA Security+ (expected 05/30/25)
 
 ### Interests: 
 
