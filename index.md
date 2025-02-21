@@ -4,24 +4,35 @@ layout: default
 
 # Portfolio
 
-## LinkedIn
-
-[Profile Link](https://www.linkedin.com/in/nicholas-coleman-8b595b279/) -> Feel free to connect with me on LinkedIn.
-
 ## About Me
 My background is in both the humanities and tech, and I have strong technical skills as well as writing/soft-skills. 
 
-It is my career goal to become a SOC Analyst, and I am currently pursuing the ISC2 CC and Security+ certifications so I can make it happen. 
+All things computer-related are my passion, and my goal is to work as a SOC Analyst, helping to defend organizations from threats.
+
+I've recently obtained the ISC2 Certified in Cybersecurity certificate, and am scheduled to take the CompTIA Sec+ exam soon.
 
 I learned the fundamentals of cyber security through Google's Cybersecurity Professional Certificate program, and fell in love with the field very quickly.
 
 I am currently looking for work such as Tech Support Analyst, IT Helpdesk, Junior Security Analyst, and any other related jobs.
+
+## Certificates 
+- ISC2 CC
+- Google Cybersecurity Professional Certificate
+- CompTIA Security+ (expected 05/30/25)
 
 ### Interests: 
 
 My interests include, Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), and AI Security.
 
 This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
+
+## Skills
+- Basic Pentesting and Vulnerability Assessment
+- SIEM Solutions
+- Bash, Python, and SQL
+- Network Security & Firewalls
+- Linux & Windows Administration
+- Suricata signature analysis
 
 ## Python Projects
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
@@ -40,19 +51,6 @@ This portfolio includes Python projects, along with written projects showcasing 
 - [Traffic Analysis Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Traffic%20Analysis%20sample%20report_Nicholas%20Coleman.pdf)
 - [DDoS Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/DDoS%20Incident%20report%20analysis.pdf)
 - [Data Leak Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Activity%20Template_%20Data%20leak%20worksheet.pdf)
-
-## Skills
-- Basic Pentesting and Vulnerability Assessment
-- SIEM Solutions
-- Bash, Python, and SQL
-- Network Security & Firewalls
-- Linux & Windows Administration
-- Suricata signature analysis
-
-## Certificates 
-- Google Cybersecurity Professional Certificate
-- ISC2 Certified in Cybersecurity Certificate (expected 02/21/25)
-- CompTIA Security+ (expected 05/30/25)
 
 ## Contact
 If you have any inquiries, job offers, or anything else:
