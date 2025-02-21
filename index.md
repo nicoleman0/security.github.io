@@ -56,3 +56,5 @@ This portfolio includes Python projects, along with written projects showcasing 
 If you have any inquiries, job offers, or anything else:
 
 Do not hesitate to contact me by [email](mailto:nicholashadleycoleman@gmail.com).
+
+[LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
