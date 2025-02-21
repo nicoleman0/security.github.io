@@ -4,7 +4,7 @@ layout: default
 
 # Portfolio
 
-## Certificates 
+## Certifications
 - ISC2 CC
 - Google Cybersecurity Professional Certificate
 - CompTIA Security+ (expected 05/30/25)
