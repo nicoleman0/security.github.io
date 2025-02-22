@@ -34,6 +34,8 @@ This portfolio includes Python projects, along with written projects showcasing 
 - Linux & Windows Administration
 - Suricata signature analysis
 
+  <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 ## Python Projects
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
 - [Hangman Game](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/hangman.py)
