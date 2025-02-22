@@ -6,9 +6,10 @@ layout: default
 
 ## Certifications
 - ISC2 CC
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 - Google Cybersecurity Professional Certificate
 - CompTIA Security+ (expected 05/30/25)
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ## About Me
 My background is in both the humanities and tech, and I have strong technical skills as well as writing/soft-skills. 
