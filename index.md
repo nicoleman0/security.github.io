@@ -22,19 +22,25 @@ I learned the fundamentals of cyber security through Google's Cybersecurity Prof
 
 I am currently looking for work such as Tech Support Analyst, IT Helpdesk, Junior Security Analyst, and any other related jobs.
 
-### Interests: 
+## Interests: 
 
-My interests include, Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), and AI Security.
+Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), & AI Security.
+
+- - -
 
 This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
 
 ## Skills
-- Basic Pentesting and Vulnerability Assessment
-- SIEM Solutions
-- Bash, Python, and SQL
-- Network Security & Firewalls
-- Linux & Windows Administration
-- Suricata signature analysis
+- Security tools & technology
+- Operating systems & infrastructure (Linux, Windows, MacOS)
+- Python scripting
+- SQL querying
+- Bash, PowerShell
+- Vulnerability scanning (Nessus, Nmap, OpenVAS)
+- Log aggregation & Security Event Correlation w/ SIEMs (Chronicle, Splunk)
+    - SPL, UDM, raw log searching
+- Clear & concise documentation
+- Endpoint security configuration and system hardening
 
 ## Python Projects
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
