@@ -45,7 +45,7 @@ This portfolio includes Python projects, along with written projects showcasing 
 ## Python Projects
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
 - [Hangman Game](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/hangman.py)
-- [Rock, Paper, Scissors](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/rps_game.py)
+- [Rock, Paper, Scissors](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/rpsv2.py)
 - [Password Generator](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password-generator.py)
 - [Password Checker](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password_checker.py)
 - [Network Scanner](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/scanner.py)
