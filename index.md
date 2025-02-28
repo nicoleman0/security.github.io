@@ -31,16 +31,17 @@ Security Operations, Network Security, Cloud Security, Digital Forensics & Incid
 This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
 
 ## Skills
-- Security tools & technology
+- Risk assessment (NIST-CSF)
 - Operating systems & infrastructure (Linux, Windows, MacOS)
-- Python scripting
-- SQL querying
-- Bash, PowerShell
-- Vulnerability scanning (Nessus, Nmap, OpenVAS)
-- Log aggregation & Security Event Correlation w/ SIEMs (Chronicle, Splunk)
-    - SPL, UDM, raw log searching
-- Clear & concise documentation
-- Endpoint security configuration and system hardening
+- Python & Bash for automating security workflows
+- SQL querying for data analysis
+- Server configuration (Wazuh)
+- Malware analysis
+- Concise and clear documentation
+- Log aggregation & SIEM-based event correlation
+- Endpoint security configuration
+- Network security monitoring (Wireshark, tcpdump)
+- Vulnerability scanning (Nessus, Nmap)
 
 ## Python Projects
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
