@@ -51,6 +51,7 @@ This portfolio includes Python projects, along with written projects showcasing 
 - [Password Checker](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password_checker.py)
 - [Network Scanner](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/scanner.py)
 - [User Removal Script](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/parsing_project/remove_user_script.py)
+  - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
 
 ## Documentation
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
