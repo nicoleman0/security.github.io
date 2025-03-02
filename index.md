@@ -4,6 +4,10 @@ layout: default
 
 # Portfolio
 
+- [Email](nicholashadleycoleman@gmail.com)
+- [Encrypted Email](nhcoleman@proton.me)
+- [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
+
 ## Certifications
 - ISC2 CC
 - Google Cybersecurity Professional Certificate
@@ -66,10 +70,3 @@ This portfolio includes Python projects, along with written projects showcasing 
 - [Traffic Analysis Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Traffic%20Analysis%20sample%20report_Nicholas%20Coleman.pdf)
 - [DDoS Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/DDoS%20Incident%20report%20analysis.pdf)
 - [Data Leak Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Activity%20Template_%20Data%20leak%20worksheet.pdf)
-
-## Contact
-If you have any inquiries, job offers, or anything else:
-
-Do not hesitate to contact me by [email](mailto:nicholashadleycoleman@gmail.com).
-
-[LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
