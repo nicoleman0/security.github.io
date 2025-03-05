@@ -3,3 +3,4 @@ description: this website showcases my projects, documentation, and skills.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
+permalink: /blog/:year/:month/:day/:title/
