@@ -3,8 +3,14 @@ description: this website showcases my projects, documentation, and skills.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-hacker
-permalink: /blog/:year/:month/:day/:title/
+
 # Navigation
 header_pages:
   - index.md
   - blog.md
+
+baseurl: "/security-portfolio.github.io"
+url: "https://nicoleman0.github.io"
+
+# Configure blog
+permalink: /blog/:year/:month/:day/:title/
