@@ -8,7 +8,7 @@ layout: default
   <a href="https://nicoleman0.github.io/security.github.io/#about-me" style="color: white; margin: 0 15px; text-decoration: none;">About</a>
 </div>
 
-# Portfolio
+## Email + Contact
 
 - [Email](mailto:nicholashadleycoleman@gmail.com)
 - [Encrypted Email](mailto:nhcoleman@proton.me)
