@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div style="background-color: #333; padding: 10px; margin-bottom: 20px; text-align: center;">
-  <a href="/" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
-  <a href="/blog" style="color: white; margin: 0 15px; text-decoration: none;">Blog</a>
-  <a href="/#about-me" style="color: white; margin: 0 15px; text-decoration: none;">About</a>
+  <a href="/security-portfolio.github.io/" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
+  <a href="/security-portfolio.github.io/blog" style="color: white; margin: 0 15px; text-decoration: none;">Blog</a>
+  <a href="/security-portfolio.github.io/#about-me" style="color: white; margin: 0 15px; text-decoration: none;">About</a>
 </div>
 
 # Portfolio
