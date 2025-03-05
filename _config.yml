@@ -9,7 +9,7 @@ header_pages:
   - index.md
   - blog.md
 
-baseurl: "/security-portfolio.github.io"
+baseurl: "/security.github.io"
 url: "https://nicoleman0.github.io"
 
 # Configure blog
