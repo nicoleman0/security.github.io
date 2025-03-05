@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "new beginnings"
+author: "Nicholas Coleman"
 date: 2025-03-05
-categories: intro
+categories: "intro"
 ---
 ### greetings
 Hi there. Welcome to my security blog, where I will be uploading my progress on various projects!
