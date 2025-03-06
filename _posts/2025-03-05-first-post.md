@@ -15,3 +15,17 @@ Tasked with finding out what exactly happened that flagged the anomaly, my first
 
 ![the IP location](https://github.com/nicoleman0/security.github.io/blob/main/images/ip_geolocation.png)
 
+Although the IP address belonging to someone in China was already a bit suspicious, I needed more evidence of it being malicious. My next plan of action? To find out the User-Agent associated with this address. Since attackers often spoof User-Agent strings to mask the tools they use as legitimate browsers/applications, finding the User-Agent string was imperative.
+
+Since I was already in Wireshark, that wouldn't be too difficult. All that needs to be done is to inspect a captured HTTP GET request. Easily done by following an HTTP stream.
+
+`*Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0*`
+
+It looks like the attacker was using a Linux-based Firefox browser, which could help him blend in with the rest of the traffic. This is valuable information, because it can help detect future attempts easily.
+
+Next, I needed to see if the attacker exploited any vulnerabilities on the company web server. They most likely uploaded malicious code to allow themselves remote control over the server. This is otherwise known as the *web shell*. 
+
+To do that, I needed to isolate all of the HTTP POST requests coming from the attacker's IP address. 
+
+`ip.src == 117.11.88.124 and http.request.method == "POST"`
+
