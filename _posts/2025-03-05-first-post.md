@@ -41,9 +41,9 @@ See their IP address nestled in that PHP script? That alone is suspicious, and s
 
 ![sucess](/security.github.io/images/attack_success.png)
 
-The second attempt was successful though, and the malicious PHP file was uploaded succesfully. It was able to bypass the server's filtering, most likely because the attacker tricked the filtering mechanism by adding a .jpg extension before the .php extension. This effectively made the server bug out, because it read the .jpg extension first, and probably thouugh it was an innocent photo. 
+The second attempt was successful though, and the malicious PHP file was uploaded succesfully. It was able to bypass the server's filtering, most likely because the attacker tricked the filtering mechanism by adding a .jpg extension before the .php extension. This effectively made the server bug out, because it read the .jpg extension first, and probably assumed it was just an innocent photo. 
 
-Well, it wasn't. The input validation mechanism of this server should definitely be updated!
+Well, it wasn't. The input validation mechanism of this server should definitely be updated! A vulnerability like this could end up being catastrophic. 
 
 ---
 
@@ -74,15 +74,16 @@ I was quickly able to find that the attacker used curl to attempt to exfiltrate 
 It can help them map the network out, and give them knowledge as to areas they can exploit. It is extremely valuable recon intel. 
 
 ---
+#### Summary
 
 With that, I was finished with the task at hand. This was a fun lab! Using Wireshark to figure out exactly what happened is almost like being a digital detective. It feels like a puzzle waiting to be solved. Although at times it can be frustrating, the process does feel intuitive after a while. 
 
 Here are my findings in a concise 5W format. 
 
-WHO: `117.11.88.124` (located in Tianjin, China)
-WHERE: Vulnerable web server, using Port 8080
-WHEN: Thu, 30 Nov 2023 18:44:19 GMT
-WHAT: Malicious php script uploaded on web server
-WHY: For the purpose of exfiltrating etc/passwd
+1. WHO: `117.11.88.124` (located in Tianjin, China)
+2. WHERE: Vulnerable web server, using Port 8080
+3. WHEN: Thu, 30 Nov 2023 18:44:19 GMT
+4. WHAT: Malicious php script uploaded on web server
+5. WHY: For the purpose of exfiltrating etc/passwd 
 
 Thank you for reading through my first blog post! More will be coming shortly. I will try and upload most of the labs I work on, if they are in anyway interesting. 
