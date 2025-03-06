@@ -35,3 +35,7 @@ Here the attacker is trying to upload a malicious script, innocently named, "ima
 
 Attackers will often name malicious files with innocuous names, so as to avoid suspicion. But the very fact that a mysterious IP address is attempting to inject a PHP script into the company web server is enough by itself.
 
+![Part 2](https://github.com/nicoleman0/security.github.io/blob/main/images/fail_attempt_2.png)
+
+See their IP address nestled in that PHP script? That alone is suspicious, and supported my conclusion that the attacker was trying to establish a reverse shell. Clearly, they are with the `system` function. It seems this first attempt was a failure however. The company web server's filters were able to stop the malicious file from executing. 
+
