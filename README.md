@@ -9,6 +9,10 @@ You can visit my portfolio [here](https://nicoleman0.github.io/security.github.i
 - HTML
 - MD
 
+**Theme:** [Hacker](https://github.com/pages-themes/hacker)
+
+(An awesome theme.)
+
 ## How to Run Locally
 1. Clone the repository:
    ```bash
