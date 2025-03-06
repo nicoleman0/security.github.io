@@ -67,7 +67,7 @@ My last step involves finding out the exact name of the file that the attacker a
 
 `(tcp.port == 8080) && (ip.src == 24.49.63.79)`
 
-![curl evidence](security.github.io/images/curl_evidence.png)
+![curl evidence](/security.github.io/images/curl_evidence.png)
 
 I was quickly able to find that the attacker used curl to attempt to exfiltrate etc/passwd. Obviously, that is a critical file, as it contains information on all system users. Nowadays, passwords are stored in shadow files, so the passwords are going to be safe. But in terms of value, etc/passwd is extremely useful for attackers. 
 
