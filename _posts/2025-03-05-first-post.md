@@ -29,3 +29,9 @@ To do that, I needed to isolate all of the HTTP POST requests coming from the at
 
 `ip.src == 117.11.88.124 and http.request.method == "POST"`
 
+![The first attempt](https://github.com/nicoleman0/security.github.io/blob/main/images/fail_attempt_1.png)
+
+Here the attacker is trying to upload a malicious script, innocently named, "image.php". 
+
+Attackers will often name malicious files with innocuous names, so as to avoid suspicion. But the very fact that a mysterious IP address is attempting to inject a PHP script into the company web server is enough by itself.
+
