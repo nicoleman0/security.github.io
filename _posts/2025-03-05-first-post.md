@@ -13,7 +13,7 @@ tags: cyberdefenders
 #### Pt. 1
 Tasked with finding out what exactly happened that flagged the anomaly, my first goal was to find out where this unauthorized activity was coming from. Going through the packet capture, I noticed that the source IP address, belonging to the potential threat actor, was 117.11.88.124. Using an online IP geolocation service, I was able to quickly find out that this IP was located in Tianjin, China.
 
-![the IP location](https://github.com/nicoleman0/security.github.io/blob/main/images/ip_geolocation.png)
+![the IP location](https://github.com/nicoleman0/security.github.io/blob/main/_posts/images/ip_geolocation.png)
 
 Although the IP address belonging to someone in China was already a bit suspicious, I needed more evidence of it being malicious. My next plan of action? To find out the User-Agent associated with this address. Since attackers often spoof User-Agent strings to mask the tools they use as legitimate browsers/applications, finding the User-Agent string was imperative.
 
@@ -29,17 +29,17 @@ To do that, I needed to isolate all of the HTTP POST requests coming from the at
 
 `ip.src == 117.11.88.124 and http.request.method == "POST"`
 
-![The first attempt](https://github.com/nicoleman0/security.github.io/blob/main/images/fail_attempt_1.png)
+![The first attempt](https://github.com/nicoleman0/security.github.io/blob/main/_posts/images/fail_attempt_1.png)
 
 Here the attacker is trying to upload a malicious script, innocently named, "image.php". 
 
 Attackers will often name malicious files with innocuous names, so as to avoid suspicion. But the very fact that a mysterious IP address is attempting to inject a PHP script into the company web server is enough by itself.
 
-![Part 2](https://github.com/nicoleman0/security.github.io/blob/main/images/fail_attempt_2.png)
+![Part 2](https://github.com/nicoleman0/security.github.io/blob/main/_posts/images/fail_attempt_2.png)
 
 See their IP address nestled in that PHP script? That alone is suspicious, and supported my conclusion that the attacker was trying to establish a reverse shell. Clearly, they are with the `system` function. It seems this first attempt was a failure however. The company web server's filters were able to stop the malicious file from executing. 
 
-![sucess](https://github.com/nicoleman0/security.github.io/blob/main/images/attack_success.png)
+![sucess](https://github.com/nicoleman0/security.github.io/blob/main/_posts/images/attack_success.png)
 
 The second attempt was successful though, and the malicious PHP file was uploaded succesfully. It was able to bypass the server's filtering, most likely because the attacker tricked the filtering mechanism by adding a .jpg extension before the .php extension. This effectively made the server bug out, because it read the .jpg extension first, and probably thouugh it was an innocent photo. 
 
