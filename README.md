@@ -5,10 +5,9 @@ Welcome to my cybersecurity portfolio repository. This repository contains the s
 ## Website
 You can visit my portfolio [here](https://nicoleman0.github.io/security.github.io/).
 
-## Technical Skills Used
-- HTML, CSS, Markdown
-- GitHub Pages
-- Network Security Tools
+**This project uses:** 
+- HTML
+- MD
 
 ## How to Run Locally
 1. Clone the repository:
