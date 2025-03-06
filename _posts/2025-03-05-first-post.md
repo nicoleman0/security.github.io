@@ -13,5 +13,5 @@ tags: cyberdefenders
 #### Pt. 1
 Tasked with finding out what exactly happened that flagged the anomaly, my first goal was to find out where this unauthorized activity was coming from. Going through the packet capture, I noticed that the source IP address, belonging to the potential threat actor, was 117.11.88.124. Using an online IP geolocation service, I was able to quickly find out that this IP was located in Tianjin, China.
 
-![Screenshot](assets/images/ip_geolocation.png)
+![the IP location]([images/ip_geolocation.png](https://github.com/nicoleman0/security.github.io/blob/main/images/ip_geolocation.png))
 
