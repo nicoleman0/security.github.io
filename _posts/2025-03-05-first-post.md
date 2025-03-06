@@ -39,3 +39,12 @@ Attackers will often name malicious files with innocuous names, so as to avoid s
 
 See their IP address nestled in that PHP script? That alone is suspicious, and supported my conclusion that the attacker was trying to establish a reverse shell. Clearly, they are with the `system` function. It seems this first attempt was a failure however. The company web server's filters were able to stop the malicious file from executing. 
 
+![sucess](https://github.com/nicoleman0/security.github.io/blob/main/images/attack_success.png)
+
+The second attempt was successful though, and the malicious PHP file was uploaded succesfully. It was able to bypass the server's filtering, most likely because the attacker tricked the filtering mechanism by adding a .jpg extension before the .php extension. This effectively made the server bug out, because it read the .jpg extension first, and probably thouugh it was an innocent photo. 
+
+Well, it wasn't. The input validation mechanism of this server should definitely be updated!
+
+---
+
+To be continued...
