@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Web Attack Lab"
+title: "Web Strike"
 author: "Nicholas Coleman"
 date: 2025-03-05
 tags: cyberdefenders
