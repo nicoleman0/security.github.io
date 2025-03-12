@@ -55,6 +55,7 @@ This portfolio includes Python projects, along with written projects showcasing 
 - Vulnerability scanning (Nessus, Nmap)
 
 ## Python Projects
+- [File Hash Checker](https://github.com/nicoleman0/hashCheck/blob/master/checker.py)
 - [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
 - [Hangman Game](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/hangman.py)
 - [Rock, Paper, Scissors](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/rpsv2.py)
