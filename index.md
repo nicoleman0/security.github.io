@@ -22,25 +22,6 @@ layout: default
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-## About Me
-My background is in both the humanities and tech, and I have strong technical skills as well as writing/soft-skills. 
-
-All things computer-related are my passion, and my goal is to work as a SOC Analyst, helping to defend organizations from threats.
-
-I've recently obtained the ISC2 Certified in Cybersecurity certificate, and am scheduled to take the CompTIA Sec+ exam soon.
-
-I learned the fundamentals of cyber security through Google's Cybersecurity Professional Certificate program, and fell in love with the field very quickly.
-
-I am currently looking for work such as Tech Support Analyst, IT Helpdesk, Junior Security Analyst, and any other related jobs.
-
-## Interests: 
-
-Security Operations, Network Security, Cloud Security, Digital Forensics & Incident Response (DFIR), & AI Security.
-
-- - -
-
-This portfolio includes Python projects, along with written projects showcasing my technical and documentation skills.
-
 ## Skills
 - Risk assessment (NIST-CSF)
 - Operating systems & infrastructure (Linux, Windows, MacOS)
@@ -55,13 +36,13 @@ This portfolio includes Python projects, along with written projects showcasing 
 - Vulnerability scanning (Nessus, Nmap)
 
 ## Python Projects
+- [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
 - [File Hash Checker](https://github.com/nicoleman0/hashCheck/blob/master/checker.py)
-- [Caesar Cipher](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/caesar_cipher.py)
-- [Hangman Game](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/hangman.py)
-- [Rock, Paper, Scissors](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/rpsv2.py)
+- [File Organizer](https://github.com/nicoleman0/FileOrganizer/blob/master/organizer.py)
 - [Password Generator](https://github.com/nicoleman0/security_scripts/blob/master/password-generator.py)
 - [Password Checker](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password_checker.py)
 - [Simple Keylogger](https://github.com/nicoleman0/keylogger/blob/main/logger.py)
+- [DDoS script](https://github.com/nicoleman0/NotDdos/blob/master/notDDOS.py)
 - [Crypto Tracker](https://github.com/nicoleman0/crypto_tracker/blob/main/tracker.py)
 - [Image Editor](https://github.com/nicoleman0/image_editor/blob/main/editor.py)
 - [Network Scanner](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/scanner.py)
