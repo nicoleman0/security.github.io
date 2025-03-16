@@ -14,6 +14,16 @@ layout: default
 - [Encrypted Email](mailto:nhcoleman@proton.me)
 - [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
 
+## Skills
+- Python
+- Linux
+- SQL
+- Security Information Event Management (Siem) Tools
+- IDS
+- Network security
+- Information security
+= NIST – cybersecurity framework
+
 ## Certifications
 - ISC2 CC
 - Google Cybersecurity Professional Certificate
@@ -21,19 +31,6 @@ layout: default
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-## Skills
-- Risk assessment (NIST-CSF)
-- Operating systems & infrastructure (Linux, Windows, MacOS)
-- Python & Bash for automating security workflows
-- SQL querying for data analysis
-- Server configuration (Wazuh)
-- Malware analysis
-- Concise and clear documentation
-- Log aggregation & SIEM-based event correlation
-- Endpoint security configuration
-- Network security monitoring (Wireshark, tcpdump)
-- Vulnerability scanning (Nessus, Nmap)
 
 ## Python Projects
 - [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
@@ -49,7 +46,7 @@ layout: default
 - [User Removal Script](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/parsing_project/remove_user_script.py)
   - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
 
-## Documentation
+## Documentation Projects
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
 - [PASTA Framework Practice](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/PASTA%20worksheet_Nicholas%20Coleman.pdf)
 - [USB Risk Analysis](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Parking%20lot%20USB%20exercise_Nicholas.pdf)
