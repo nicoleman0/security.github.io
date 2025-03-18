@@ -34,6 +34,7 @@ layout: default
 
 ## Python Projects
 - [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
+- [IP Geolocation Tool](https://github.com/nicoleman0/ip_geolocation/tree/master)
 - [File Hash Checker](https://github.com/nicoleman0/hashCheck/blob/master/checker.py)
 - [File Organizer](https://github.com/nicoleman0/FileOrganizer/blob/master/organizer.py)
 - [Password Generator](https://github.com/nicoleman0/security_scripts/blob/master/password-generator.py)
@@ -41,7 +42,6 @@ layout: default
 - [Simple Keylogger](https://github.com/nicoleman0/keylogger/blob/main/logger.py)
 - [DDoS script](https://github.com/nicoleman0/NotDdos/blob/master/notDDOS.py)
 - [Crypto Tracker](https://github.com/nicoleman0/crypto_tracker/blob/main/tracker.py)
-- [Image Editor](https://github.com/nicoleman0/image_editor/blob/main/editor.py)
 - [Network Scanner](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/scanner.py)
 - [User Removal Script](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/parsing_project/remove_user_script.py)
   - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
