@@ -27,7 +27,7 @@ You can visit my portfolio [here](https://nicoleman0.github.io/security.github.i
 ## Contact
 If you have any questions or feedback, feel free to reach out:
 - [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
-- [Email](mailto:nicholashadleycoleman@gmail.com)
+- [Email](mailto:nhcoleman@proton.me)
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
