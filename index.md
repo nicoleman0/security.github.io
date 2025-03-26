@@ -32,6 +32,7 @@ layout: default
 ## Python Projects
 - [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
 - [IP Geolocation Tool](https://github.com/nicoleman0/ip_geolocation/tree/master)
+- [EVTX Parser](https://github.com/nicoleman0/evtxParser)
 - [File Hash Checker](https://github.com/nicoleman0/hashCheck/blob/master/checker.py)
 - [File Organizer](https://github.com/nicoleman0/FileOrganizer/blob/master/organizer.py)
 - [Password Generator](https://github.com/nicoleman0/security_scripts/blob/master/password-generator.py)
