@@ -44,7 +44,8 @@ layout: default
 - [User Removal Script](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/parsing_project/remove_user_script.py)
   - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
 
-## Documentation Projects
+## Reports and Documentation
+- [SQL Injection Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/115)
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
 - [PASTA Framework Practice](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/PASTA%20worksheet_Nicholas%20Coleman.pdf)
 - [USB Risk Analysis](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Parking%20lot%20USB%20exercise_Nicholas.pdf)
