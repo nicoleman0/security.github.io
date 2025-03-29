@@ -45,6 +45,7 @@ layout: default
   - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
 
 ## Reports and Documentation
+- [XSS Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/116)
 - [SQL Injection Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/115)
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
 - [PASTA Framework Practice](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/PASTA%20worksheet_Nicholas%20Coleman.pdf)
