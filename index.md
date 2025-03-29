@@ -30,6 +30,7 @@ layout: default
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ## Python Projects
+- [VirusTotal URL Scanner Tool](https://github.com/nicoleman0/VTScan)
 - [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
 - [IP Geolocation Tool](https://github.com/nicoleman0/ip_geolocation/tree/master)
 - [EVTX Parser](https://github.com/nicoleman0/evtxParser)
