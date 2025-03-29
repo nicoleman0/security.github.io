@@ -8,7 +8,7 @@ tags: letsdefend
 
 #### Log Alert
 
-![XSS_alert.png]
+![XSS alert](/security.github.io/images/xss_attack/XSS_alert.png)
 #### Investigation
 
 Source IP: 112.85.42.13
@@ -18,7 +18,7 @@ Source IP: 112.85.42.13
 - E-Mail: `zhaoyz3@chinaunicom.cn`
 
 
-![china_pic.png]
+![china](/security.github.io/images/xss_attack/china_pic.png)
 
 A poorly rated IP address. This adds to the suspicion that this is an attack.
 
@@ -27,7 +27,7 @@ Decoded Requested URL:
 
 Using my Log Management tool, I queried for any logs relating to the Source IP.
 
-![[logs.png]]
+![logs](/security.github.io/images/xss_attack/logs.png)
 
 **Timeline**:
 ```
@@ -69,7 +69,7 @@ Using my Log Management tool, I queried for any logs relating to the Source IP.
 		2. It’s a simple yet effective payload to test if script tags are blocked or sanitized.
 
 **Endpoint Information**
-![endpoint.png]
+![end](/security.github.io/images/xss_attack/endpoint.png)
 
 Looks like the WebServer that was targeted's last login was 24 days before the XSS attack.
 
