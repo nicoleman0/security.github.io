@@ -7,10 +7,11 @@ layout: default
   <a href="https://nicoleman0.github.io/security.github.io/blog/" style="color: white; margin: 0 15px; text-decoration: none;">Blog</a>
 </div>
 
-## LinkedIn
+## 💼 LinkedIn
 - [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
 
-## Certifications
+## 🧑‍🎓 Education
+- Bachelor of Arts (Bard College)
 - ISC2 CC
 - Google Cybersecurity Professional Certificate
 - CompTIA Security+ (expected 05/30/25)
@@ -18,7 +19,7 @@ layout: default
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-## Technical Skills
+## 🤖 Technical Skills
 - Python
 - Incident Response
 - Malware analysis
@@ -29,7 +30,7 @@ layout: default
 - Threat detection and log analysis with SIEMs like Splunk Enterprise
 - Active Directory
 
-## Python Projects
+## 🐍 Python Projects
 - [VirusTotal URL Scanner Tool](https://github.com/nicoleman0/VTScan)
 - [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
 - [IP Geolocation Tool](https://github.com/nicoleman0/ip_geolocation/tree/master)
@@ -45,7 +46,7 @@ layout: default
 - [User Removal Script](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/parsing_project/remove_user_script.py)
   - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
 
-## Reports and Documentation
+## 📄 Reports and Documentation
 - [XSS Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/116)
 - [SQL Injection Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/115)
 - [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
