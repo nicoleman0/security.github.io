@@ -11,16 +11,6 @@ layout: default
 ## LinkedIn
 - [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
 
-## Skills
-- Python
-- Linux
-- SQL
-- Security Information Event Management (Siem) Tools
-- IDS
-- Network security
-- Information security
-= NIST – cybersecurity framework
-
 ## Certifications
 - ISC2 CC
 - Google Cybersecurity Professional Certificate
@@ -28,6 +18,17 @@ layout: default
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+## Technical Skills
+- Python
+- Incident Response
+- Malware analysis
+- OS hardening
+- Threat Intelligence
+- Wireshark
+- Proficient with Debian-based Linux distros (Ubuntu, Kali, ParrotOS, etc.)
+- Threat detection and log analysis with SIEMs like Splunk Enterprise
+- Active Directory
 
 ## Python Projects
 - [VirusTotal URL Scanner Tool](https://github.com/nicoleman0/VTScan)
