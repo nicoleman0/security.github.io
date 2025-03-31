@@ -9,7 +9,7 @@ permalink: /blog/
   <a href="https://nicoleman0.github.io/security.github.io/blog/" style="color: white; margin: 0 15px; text-decoration: none;">Blog</a>
 </div>
 
-# Blog
+## Infosec_Blog
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
