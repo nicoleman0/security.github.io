@@ -7,7 +7,6 @@ permalink: /blog/
 <div style="background-color: #333; padding: 10px; margin-bottom: 20px; text-align: center;">
   <a href="https://nicoleman0.github.io/security.github.io/" style="color: white; margin: 0 15px; text-decoration: none;">Home</a>
   <a href="https://nicoleman0.github.io/security.github.io/blog/" style="color: white; margin: 0 15px; text-decoration: none;">Blog</a>
-  <a href="https://nicoleman0.github.io/security.github.io/#about-me" style="color: white; margin: 0 15px; text-decoration: none;">About</a>
 </div>
 
 # Blog
