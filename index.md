@@ -37,14 +37,13 @@ layout: default
 - [EVTX Parser](https://github.com/nicoleman0/evtxParser)
 - [File Hash Checker](https://github.com/nicoleman0/hashCheck/blob/master/checker.py)
 - [File Organizer](https://github.com/nicoleman0/FileOrganizer/blob/master/organizer.py)
-- [Password Generator](https://github.com/nicoleman0/security_scripts/blob/master/password-generator.py)
-- [Password Checker](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/password_checker.py)
 - [Simple Keylogger](https://github.com/nicoleman0/keylogger/blob/main/logger.py)
 - [DDoS script](https://github.com/nicoleman0/NotDdos/blob/master/notDDOS.py)
 - [Crypto Tracker](https://github.com/nicoleman0/crypto_tracker/blob/main/tracker.py)
 - [Network Scanner](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/scanner.py)
 - [User Removal Script](https://github.com/nicoleman0/Portfolio/blob/main/security_projects/parsing_project/remove_user_script.py)
   - [another removal algorithm](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Algorithm%20for%20file%20updates%20in%20Python.pdf)
+- [Deck of Cards](https://github.com/nicoleman0/Deck_of_Cards)
 
 ## 📄 Reports and Documentation
 - [XSS Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/116)
