@@ -1,6 +1,17 @@
+---
+layout: post
+title: "Ignite"
+author: "Nicholas Coleman"
+date: 2025-04-11
+tags: tryhackme
+---
+
+### Info
 
 IP: 10.10.233.34
-Nmap:
+
+### Nmap
+
 ![[1.png]]
 
 Website:
