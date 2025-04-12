@@ -1,4 +1,17 @@
-Nmap scan:
+---
+layout: post
+title: "Startup"
+author: "Nicholas Coleman"
+date: 2025-04-12
+tags: tryhackme
+---
+
+## Startup
+
+My task is to do a penetration test on a food-based start-up. They have provided me with their IP address. This is a black box penetration test.
+
+### Nmap Scan
+
 ```
 # Nmap 7.95 scan initiated Sat Apr 12 14:36:35 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA startup 10.10.225.222
 Nmap scan report for 10.10.225.222
@@ -37,31 +50,32 @@ Service detection performed. Please report any incorrect results at https://nmap
 # Nmap done at Sat Apr 12 14:36:49 2025 -- 1 IP address (1 host up) scanned in 14.10 seconds
 ```
 
-They have anonymous access to FTP enabled. This is a good sign for me, and a bad sign for them.
+## FTP
+
+It looks like the FTP server used by the startup has anonymous login enabled. That makes it a lot easier for me to snoop around.
 
 FTP:
 ![[FTP.png]]
 
-Nothing useful in FTP except for the fact that there is a writable file. We can't do anything with it, so maybe we can upload from the site. 
+I couldn't really find anything useful, but maybe I can upload a malicious file that I can then execute from the browser. This FTP server is most likely for their website that is currently being built. 
 
 After doing a gobuster search:
 ![[gobuster.png]]
 
-Bingo - there is a /files path. When navigating to this page, I notice that it is the same directory as when we accessed by FTP. This means I can upload a malicious file through the FTP connection and execute it via the browser...
+Bingo - there is a `/files` path. When navigating to this page, I notice that it is the same directory as when we accessed by FTP. This means I can upload a malicious file through the FTP connection and execute it via the browser!
 
-For this - I can reuse Pentestmonkey's php-reverse-shell script to help me gain access.
+For this I can reuse Pentestmonkey's php-reverse-shell script, that I used for another CTF, to help me gain access.
 
 ![[ftp_upload.png]]
 
-Just like that - the malicious script is now uploaded to the website. Before executing it, make sure to be listening in using netcat on the same port that was specified in the script. 
+Just like that - the reverse shell script is now showing up on the `/files` page. I can execute it by simply double-clicking. However before executing it, I made sure to be listening in using netcat on the same port that I specified in the php script:
 
 ![[ftp_php.png]]
-Now clicking on the script will give me access to their machine.
 
 Once inside, I am able to find their secret ingredient quite easily:
 ![[recipe.png]]
 
-Using bash -i will allow us to use a stable shell in the machine.
+Using `bash -i` will allow us to use a stable shell in the machine.
 
 From here I found a suspicious Wireshark capture. I copied it to the ftp folder so that I could download it and view it on Wireshark on my VM.
 
@@ -72,7 +86,7 @@ After looking through the different conversations, I noticed that in this TCP st
 After all, they did try it 3 times:
 `c4ntg3t3n0ughsp1c3`
 
-Maybe it works for ssh'ing into the user's machine? 
+Maybe it works for ssh'ing into the user (lenny)'s machine? 
 
 ![[ssh_login.png]]
 
