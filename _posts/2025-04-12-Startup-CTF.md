@@ -55,62 +55,63 @@ Service detection performed. Please report any incorrect results at https://nmap
 It looks like the FTP server used by the startup has anonymous login enabled. That makes it a lot easier for me to snoop around.
 
 FTP:
-![[FTP.png]]
+![ftp](/security.github.io/images/startup/FTP.png)
 
 I couldn't really find anything useful, but maybe I can upload a malicious file that I can then execute from the browser. This FTP server is most likely for their website that is currently being built. 
 
 After doing a gobuster search:
-![[gobuster.png]]
+![gobuster](/security.github.io/images/startup/gobuster.png)
 
 Bingo - there is a `/files` path. When navigating to this page, I notice that it is the same directory as when we accessed by FTP. This means I can upload a malicious file through the FTP connection and execute it via the browser!
 
 For this I can reuse Pentestmonkey's php-reverse-shell script, that I used for another CTF, to help me gain access.
 
-![[ftp_upload.png]]
+![ftp_upload](/security.github.io/images/startup/ftp_upload.png)
 
 Just like that - the reverse shell script is now showing up on the `/files` page. I can execute it by simply double-clicking. However before executing it, I made sure to be listening in using netcat on the same port that I specified in the php script:
 
-![[ftp_php.png]]
+![ftp_php](/security.github.io/images/startup/ftp_php.png)
 
 Once inside, I am able to find their secret ingredient quite easily:
-![[recipe.png]]
+
+![recipe](/security.github.io/images/startup/recipe.png)
 
 Using `bash -i` will allow us to use a stable shell in the machine.
 
 From here I found a suspicious Wireshark capture. I copied it to the ftp folder so that I could download it and view it on Wireshark on my VM.
 
-![[wireshark_capture.png]]
+![wireshark](/security.github.io/images/startup/wireshark_capture.png)
 
-After looking through the different conversations, I noticed that in this TCP stream there were a few password attempts that, although failed, may indicate something important. Although the password doesn't seem to work for root, it may be important still.
-
-After all, they did try it 3 times:
-`c4ntg3t3n0ughsp1c3`
+After looking through the different conversations, I noticed that in this TCP stream there were a few password attempts. They seem to have been attempted by someone that was doing the same thing I was. Maybe another pentester? Probably a malicious actor though... But either way - this password obviously has some kind of meaning. They did try it (`c4ntg3t3n0ughsp1c3`) three times in a row...
 
 Maybe it works for ssh'ing into the user (lenny)'s machine? 
 
-![[ssh_login.png]]
+![ssh_login](/security.github.io/images/startup/ssh_login.png)
 
-There you go! Finding the user.txt was easy after this. It was located in the home directory.
+There you go, it worked! Sometimes you just have to try things out.
+
+Finding the user.txt was easy after this. It was located in the home directory.
 
 Now, we have to escalate privileges to obtain the root flag. A bit harder.
 
 Looking around the machine, I was able to find a directory called scripts:
-![[scripts.png]]
 
-Good news -> planner.sh is owned by root:
+![scripts](/security.github.io/images/startup/scripts.png)
+
+I checked the script, `planner.sh`, and saw that it is owned by root:
 
 `-rwxr-xr-x 1 root   root     77 Nov 12  2020 planner.sh`
 
 Abusing this privilege would be the most logical attack vector. 
 
-To get more information, I installed pspy64 so I could see what processes are running under root. Doing so will allow me to determine more about what exactly is being executed here.
+To find out more about the system and what processes are going on, I installed **pspy64** (a tool that allows for unprivileged Linux process snooping). Doing this will allow me to determine if this `planner.sh` is doing anything interesting. 
 
-From this, I can see that the planner.sh is running print.sh every minute. I can take advantage of this by changing print.sh so that it gives me a reverse shell. Before this, I set up netcat to listen in.
+From this, I can see that the planner.sh is running print.sh every minute. I can take advantage of this by changing print.sh to be a reverse shell script. Before this, I set up netcat to listen in.
 
-![[planner.png]]
+![planner](/security.github.io/images/startup/planner.png)
 
 After running that, I checked to see if I had gained root privileges. Bingo!
 
-![[Startup - Photos/Final.png]]
+![FINAL](/security.github.io/images/startup/Final.png)
 
 Abusing these types of scripts is easy, and a good reminder of why you must be very careful when using scripts that take advantage of sudo privileges. 
