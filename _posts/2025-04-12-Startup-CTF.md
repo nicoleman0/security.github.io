@@ -50,16 +50,16 @@ Service detection performed. Please report any incorrect results at https://nmap
 # Nmap done at Sat Apr 12 14:36:49 2025 -- 1 IP address (1 host up) scanned in 14.10 seconds
 ```
 
-## FTP
+### FTP
 
-It looks like the FTP server used by the startup has anonymous login enabled. That makes it a lot easier for me to snoop around.
+It looks like the FTP server used by the startup has *anonymous* login enabled. That makes it a lot easier for me to snoop around.
 
-FTP:
 ![ftp](/security.github.io/images/startup/FTP.png)
 
 I couldn't really find anything useful, but maybe I can upload a malicious file that I can then execute from the browser. This FTP server is most likely for their website that is currently being built. 
 
-After doing a gobuster search:
+After doing a **gobuster** search:
+
 ![gobuster](/security.github.io/images/startup/gobuster.png)
 
 Bingo - there is a `/files` path. When navigating to this page, I notice that it is the same directory as when we accessed by FTP. This means I can upload a malicious file through the FTP connection and execute it via the browser!
@@ -67,6 +67,8 @@ Bingo - there is a `/files` path. When navigating to this page, I notice that it
 For this I can reuse Pentestmonkey's php-reverse-shell script, that I used for another CTF, to help me gain access.
 
 ![ftp_upload](/security.github.io/images/startup/ftp_upload.png)
+
+### php reverse shell
 
 Just like that - the reverse shell script is now showing up on the `/files` page. I can execute it by simply double-clicking. However before executing it, I made sure to be listening in using netcat on the same port that I specified in the php script:
 
@@ -78,13 +80,17 @@ Once inside, I am able to find their secret ingredient quite easily:
 
 Using `bash -i` will allow us to use a stable shell in the machine.
 
+### Suspicious pcap
+
 From here I found a suspicious Wireshark capture. I copied it to the ftp folder so that I could download it and view it on Wireshark on my VM.
 
 ![wireshark](/security.github.io/images/startup/wireshark_capture.png)
 
 After looking through the different conversations, I noticed that in this TCP stream there were a few password attempts. They seem to have been attempted by someone that was doing the same thing I was. Maybe another pentester? Probably a malicious actor though... But either way - this password obviously has some kind of meaning. They did try it (`c4ntg3t3n0ughsp1c3`) three times in a row...
 
-Maybe it works for ssh'ing into the user (lenny)'s machine? 
+Maybe it works for ssh'ing into the user (lenny)'s machine?
+
+### SSH to user machine
 
 ![ssh_login](/security.github.io/images/startup/ssh_login.png)
 
@@ -104,6 +110,8 @@ I checked the script, `planner.sh`, and saw that it is owned by root:
 
 Abusing this privilege would be the most logical attack vector. 
 
+## pspy64
+
 To find out more about the system and what processes are going on, I installed **pspy64** (a tool that allows for unprivileged Linux process snooping). Doing this will allow me to determine if this `planner.sh` is doing anything interesting. 
 
 From this, I can see that the planner.sh is running print.sh every minute. I can take advantage of this by changing print.sh to be a reverse shell script. Before this, I set up netcat to listen in.
@@ -113,5 +121,7 @@ From this, I can see that the planner.sh is running print.sh every minute. I can
 After running that, I checked to see if I had gained root privileges. Bingo!
 
 ![FINAL](/security.github.io/images/startup/Final.png)
+
+### Conclusions
 
 Abusing these types of scripts is easy, and a good reminder of why you must be very careful when using scripts that take advantage of sudo privileges. 
