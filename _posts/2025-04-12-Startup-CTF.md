@@ -6,14 +6,11 @@ date: 2025-04-12
 tags: tryhackme
 ---
 
-## Startup
-
 My task is to do a penetration test on a food-based start-up. They have provided me with their IP address. This is a black box penetration test.
 
 ### Nmap Scan
 
 ```
-# Nmap 7.95 scan initiated Sat Apr 12 14:36:35 2025 as: /usr/lib/nmap/nmap --privileged -sC -sV -oA startup 10.10.225.222
 Nmap scan report for 10.10.225.222
 Host is up (0.095s latency).
 Not shown: 997 closed tcp ports (reset)
@@ -118,10 +115,15 @@ From this, I can see that the planner.sh is running print.sh every minute. I can
 
 ![planner](/security.github.io/images/startup/planner.png)
 
-After running that, I checked to see if I had gained root privileges. Bingo!
+After running that very insecure script, I checked to see if I had gained root privileges:
 
 ![FINAL](/security.github.io/images/startup/Final.png)
 
+Nice! That wasn't too bad. Not good for this startup though.
+
 ### Conclusions
 
-Abusing these types of scripts is easy, and a good reminder of why you must be very careful when using scripts that take advantage of sudo privileges. 
+- Leaving anonymous FTP login can be useful in many ways. But it is an unsecured protocol, and should only be used if absolutely necessary and for very specific functions. Otherwise it should be left disabled, as it can provide attackers with the ability to write files and upload malicious scripts.
+  - This misconfiguration of anonymous FTP was what ultimately provided me the first 'in'. Without that, it would have been a lot harder to breach the system.
+- Another huge issue was the pcap file containing important credentials. Hosting an important file, with a *password* for your system, on your website's remote server (which can be publically FTP'd into) is a terrible idea. That was how I was able to find the password for the lenny user on the target system.
+- Last but not least: having a script that can be executed by the user, without sudo priveleges - which uses sudo commands, is a HORRIBLE idea. I was able to abuse this very easily, and gave myself root admin access with a simple reverse shell.
