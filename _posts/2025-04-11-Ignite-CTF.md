@@ -15,12 +15,15 @@ IP: 10.10.233.34
 ![nmap](/security.github.io/images/ignite/1.png)
 
 Website:
+
 ![site](/security.github.io/images/ignite/2.png)
 
 Gobuster:
+
 ![gobuster](/security.github.io/images/ignite/3.png)
 
 Exploits:
+
 ![exploit](/security.github.io/images/ignite/4.png)
 
 Since the admin did not change their default password, it seems I can just login without having to brute force anything, or figure it out. 
