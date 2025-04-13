@@ -6,7 +6,9 @@ date: 2025-04-12
 tags: tryhackme
 ---
 
-My task is to do a penetration test on a food-based start-up. They have provided me with their IP address. This is a black box penetration test.
+## CTF Details
+
+The only details that I have are the target IP address. 
 
 ### Nmap Scan
 
