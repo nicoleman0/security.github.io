@@ -12,16 +12,16 @@ IP: 10.10.233.34
 
 ### Nmap
 
-![[1.png]]
+![nmap](/security.github.io/images/ignite/1.png)
 
 Website:
-![[2.png]]
+![site](/security.github.io/images/ignite/2.png)
 
 Gobuster:
-![[3.png]]
+![gobuster](/security.github.io/images/ignite/3.png)
 
 Exploits:
-![[4.png]]
+![exploit](/security.github.io/images/ignite/4.png)
 
 Since the admin did not change their default password, it seems I can just login without having to brute force anything, or figure it out. 
 
@@ -31,16 +31,17 @@ This brings me to a CMS, where there is very little information.
 
 I decide to now just try out an exploit I found called FuelCMS which grants me a reverse shell. 
 
-![[8.png]]
+![shell](/security.github.io/images/ignite/8.png)
 
 Bingo!
 
-![[9.png]]
+![bingo](/security.github.io/images/ignite/9.png)
 
 I was able to find the user.txt flag pretty easily. 
 
 Looking around, I was able to find a database file:
-![[10.png]]
+
+![10](/security.github.io/images/ignite/10.png)
 
 Root user found! Now I have to escalate. 
 
@@ -50,4 +51,5 @@ This spawns a terminal so that I can login to root:
 
 `python -c 'import pty; pty.spawn("/bin/sh")'`
 
-![[11.png]]
+![final](/security.github.io/images/ignite/11.png)
+
