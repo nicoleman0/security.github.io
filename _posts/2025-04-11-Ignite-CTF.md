@@ -8,7 +8,7 @@ tags: tryhackme
 
 ### Info
 
-IP: 10.10.233.34
+IP: `10.10.233.34`
 
 ### Nmap
 
@@ -28,7 +28,7 @@ Exploits:
 
 Since the admin did not change their default password, it seems I can just login without having to brute force anything, or figure it out. 
 
-The admin page is located at: http://10.10.233.34/fuel
+The admin page is located at: `http://10.10.233.34/fuel`
 
 This brings me to a CMS, where there is very little information.
 
