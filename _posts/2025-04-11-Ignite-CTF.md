@@ -12,7 +12,7 @@ IP: `10.10.233.34`
 
 ### Nmap
 
-![nmap](/security.github.io/images/ignite/1.png)
+![nmap](/security.github.io/images/ignite/first.png)
 
 Website:
 
