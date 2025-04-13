@@ -2,7 +2,7 @@
 layout: post
 title: "Ignite"
 author: "Nicholas Coleman"
-date: 2025-04-11
+date: 2025-04-12
 tags: tryhackme
 ---
 
