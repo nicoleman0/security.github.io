@@ -61,3 +61,7 @@ layout: default
 - [Traffic Analysis Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Traffic%20Analysis%20sample%20report_Nicholas%20Coleman.pdf)
 - [DDoS Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/DDoS%20Incident%20report%20analysis.pdf)
 - [Data Leak Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Activity%20Template_%20Data%20leak%20worksheet.pdf)
+
+## 👨‍💻 TryHackMe Profile
+
+<iframe src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4000950" style='border:none;'></iframe>
