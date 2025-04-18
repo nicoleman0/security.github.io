@@ -22,15 +22,14 @@ layout: default
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 ## 🤖 Technical Skills
-- Python
-- Incident Response
-- Malware analysis
-- OS hardening
-- Threat Intelligence
-- Wireshark
-- Proficient with Debian-based Linux distros (Ubuntu, Kali, ParrotOS, etc.)
-- Threat detection and log analysis with SIEMs like Splunk Enterprise
-- Active Directory
+- Linux & Windows
+- Python & SQL
+- Malware analysis (OpenCTI, Tri.age, VirusTotal)
+- Knowledge of MITRE, NIST-CSF, Diamond Model, NIST-SP 800-53
+- Network security (Wireshark, Snort, Zeek)
+- Vulnerability scanning (Nessus, Metasploit)
+- YARA, yarGen, Loki
+- Basic penetration testing skills 
 
 ## 🐍 Python Projects
 - [VirusTotal URL Scanner Tool](https://github.com/nicoleman0/VTScan)
