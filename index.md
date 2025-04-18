@@ -11,10 +11,12 @@ layout: default
 - [LinkedIn](https://www.linkedin.com/in/nicholas-coleman-8b595b279/)
 
 ## 🧑‍🎓 Education
-- Bachelor of Arts (Bard College)
+- MSc Information Security (Royal Holloway, Univ. of London) *Expected: 05/01/2026*
+- B.A. History (Bard College)
+
+## 🪪 Certs
 - ISC2 CC
 - Google Cybersecurity Professional Certificate
-- CompTIA Security+ (expected 05/30/25)
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="eec19dc3-72f1-4041-9224-cdec78890aa1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="f007e25b-687b-46de-8ff1-b8080f0dc7f6" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
