@@ -32,6 +32,7 @@ layout: default
 
 ## 🐍 Python Projects
 - [VirusTotal URL Scanner Tool](https://github.com/nicoleman0/VTScan)
+- [IP Scanner CLI Tool](https://github.com/nicoleman0/ipster)
 - [Custom Gemini Chatbot](https://github.com/nicoleman0/Vinny-Chatbot)
 - [DNS Enumeration Tool](https://github.com/nicoleman0/dns_python/tree/master)
 - [IP Geolocation Tool](https://github.com/nicoleman0/ip_geolocation/tree/master)
