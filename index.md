@@ -12,7 +12,7 @@ layout: default
 
 ## 🧑‍🎓 Education
 - MSc Information Security (Royal Holloway, Univ. of London) *Expected: 05/01/2026*
-- B.A. History (Bard College)
+- B.A. History (Bard College) *Graduated: 05/25/2024*
 
 ## 🪪 Certs
 - ISC2 CC
