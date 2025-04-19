@@ -45,12 +45,12 @@ tags: tryhackme
 ### Task
 - ##### What is the IP address of the infected Windows client?
 	- Repeated beaconing from: `5.252.153[.]241` using the `/8182020` URI.
-- ![2ip]()
+- ![2ip](/security.github.io/images/auth/2_ip.png)
 - The IP address of the infected Windows client is `10.1.17[.]215`
 
 - ##### What is the mac address of the infected Windows client?
 	- Search query: `arp && (arp.src.proto_ipv4 == 10.1.17.215 || arp.dst.proto_ipv4 == 10.1.17.215)`
-	- ![3]()
+	- ![3](/security.github.io/images/auth/3.png)
 	- Sender MAC address: **`Intel_26:4a:74 (00:d0:b7:26:4a:74)`**
 
 - ##### What is the host name of the infected Windows client?
@@ -58,20 +58,20 @@ tags: tryhackme
 	- <00> indicates that this is a Workstation Service (the base name used for identification on the LAN)
 
 - ##### What is the user account name from the infected Windows client?
-	- ![5]()
+	- ![5](/security.github.io/images/auth/5.png)
 	- It is `shutchenson` -> for Steve Hutchenson
 
 - ##### What is the likely domain name for the fake Google Authenticator page?
 	- For this, have to look for any weird Google-like pages.
-	- ![6]()
+	- ![6](/security.github.io/images/auth/6.png)
 	- `google-authenticator.burleson-appliance[.]net`
 	- `authenticatoor.org`
 - ##### What are the IP addresses used for C2 servers for this infection?
-	- ![7]()
+	- ![7](/security.github.io/images/auth/7.png)
 	- The C2 Servers for this infection are:
 		- `5.252.153[.]241`
 		- `45.125.66[.]32`
 		- `45.125.66[.]252`
-	- ![8]()
+	- ![8](/security.github.io/images/auth/8.png)
 	- The IP for the C2 Server comes out of *Frankfurt* in *Germany*.
 
