@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Malvertisement Post-Incident Report"
+author: "Nicholas Coleman"
+date: 2025-04-20
+tags: malware-traffic
+---
+
 ## `bluemoontuesday - Post-Incident Report`
 
 **`Nicholas H. Coleman - Security Analyst`**
