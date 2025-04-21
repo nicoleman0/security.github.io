@@ -49,18 +49,12 @@ layout: default
 - [Deck of Cards](https://github.com/nicoleman0/Deck_of_Cards)
 
 ## 📄 Reports and Documentation
-- [Malvertisement Post-Incident-Review](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/bluemoon-incident-report.pdf)
+- [NetSupport RAT Post-Incident Review](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Nematodes%20Post-Incident%20Report.pdf)
+- [Bing Malvertisement Post-Incident Review](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/bluemoon-incident-report.pdf)
 - [XSS Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/116)
-- [SQL Injection Attack Case Report](https://app.letsdefend.io/case-management/casedetail/nicholashadleycoleman/115)
-- [Security Risk Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Security%20risk%20assessment%20report_Nicholas%20Coleman.pdf)
 - [PASTA Framework Practice](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/PASTA%20worksheet_Nicholas%20Coleman.pdf)
 - [USB Risk Analysis](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Parking%20lot%20USB%20exercise_Nicholas.pdf)
-- [Vulnerability Assesment](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Vulnerability%20assessment%20report.pdf)
 - [SYN Flood Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/SYN%20Flood%20Attack%20sample%20analysis%20report_Nicholas%20Coleman%20(1).pdf)
-- [SQL Worksheet](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Apply%20filters%20to%20SQL%20queries.pdf)
-- [Traffic Analysis Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Traffic%20Analysis%20sample%20report_Nicholas%20Coleman.pdf)
-- [DDoS Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/DDoS%20Incident%20report%20analysis.pdf)
-- [Data Leak Incident Report](https://github.com/nicoleman0/Portfolio/blob/main/Assignments/Activity%20Template_%20Data%20leak%20worksheet.pdf)
 
 ## 👨‍💻 TryHackMe Profile
 
