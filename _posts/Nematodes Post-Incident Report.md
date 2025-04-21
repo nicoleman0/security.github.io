@@ -1,3 +1,11 @@
+---
+layout: post
+title: "NetSupport Remote Access Trojan"
+author: "Nicholas Coleman"
+date: 2025-04-21
+tags: malware-traffic
+---
+
 ## **Nematodes Medical Research Facility**
 
 INC-2025-04-21 Executive Summary & Post-Incident Review  
