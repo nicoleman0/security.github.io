@@ -182,7 +182,7 @@ This leads me to believe that the alerts claiming this to be a WarmCookie attack
 
 **WARMCOOKIE Execution Flow**
 
-![][image7]
+![7](/security.github.io/images/warmcookie/pic7.png)
 
 Here we can see that the WARMCOOKIE execution flow matches the activity that occurred against the infected Host IP. 
 
